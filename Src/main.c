@@ -110,8 +110,8 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   int stat = 0;
-  int i = 0;
-  //  typedef enum stat {Left, Right} state;
+  int i = 1;
+
   while (1)
   {
 	  if(HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0) == 0)
